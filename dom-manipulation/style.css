@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    /* width: 100%; */
+    max-width: 500px;
+    background: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    
+}
+#quoteDisplay{
+    background-color: green;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+option{
+    background-color: transparent;
+    color: green;
+}
+
+#newQuote {
+    margin-bottom: 20px;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    background-color: green;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input {
+    padding: 12px;
+    border-style: none;
+
+}
+#categoryFilter{
+    padding: 4px;
+    border-style: none;
+    display: block;
+    margin-bottom: 10px;
+}
+#addQuote,#exportQuote {
+    padding: 12px;
+    color: white;
+    background-color: green;
+    border-style: none;
+    border-radius: 4px;
+    margin: 10px 0 0 0;
+    align-items: center;
+    cursor: pointer;
+}
+label{
+    font-weight: 600;
+}
+#importFile {
+    padding: 12px;
+    color: white;
+    background-color: grey;
+    border-style: none;
+    border-radius: 4px;
+    margin: 10px 0 0 0;
+    align-items: center;
+    cursor: pointer;
+}
