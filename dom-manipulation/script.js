@@ -152,7 +152,7 @@ const quotes = JSON.parse(localStorage.getItem('quotes')) || [
       // Save the last selected category to local storage
       localStorage.setItem('selectedCategory', selectedCategory);
     }
-    
+
     // GET FROM SERVER
     const urlApi = 'https://jsonplaceholder.typicode.com/posts'
   
@@ -175,7 +175,8 @@ const quotes = JSON.parse(localStorage.getItem('quotes')) || [
         body: JSON.stringify(quote),
       });
     }
-    function synchQuotes() {
+    
+    function syncQuotes() {
       alert(`Quotes synced with server!`); //🤔🤔🤔...........
     }
 
