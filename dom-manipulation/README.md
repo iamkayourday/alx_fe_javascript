@@ -38,7 +38,7 @@ The Dynamic Quote Generator is a web application that allows users to view, add,
 - Local Storage: Storing quotes and user preferences.
 
 # SCREENSHOT🖼️
-![screenshot]()
+![screenshot](final.png)
 
 ## AUTHOR CONTACT INFORMATION
 For any inquiries or further information, please feel free to reach out to me:
