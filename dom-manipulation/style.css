@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: gray;
+    background-color: #f2f9f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,19 +8,22 @@ body {
     margin: 0;
 }
 .container {
-    /* width: 100%; */
+    width: 100%;
     max-width: 500px;
-    background: lightgray;
+    background: #5c715e;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     
 }
 #quoteDisplay{
-    background-color: green;
+    padding: 40px;
+    background-color : #b6cdbd;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     margin-bottom: 10px;
     border-radius: 4px;
+    font-weight: bold;
+    position: relative;
 }
 option{
     background-color: transparent;
@@ -30,10 +33,11 @@ option{
 #newQuote {
     margin-bottom: 20px;
     padding: 15px 40px 15px 40px;
-    color: white;
-    background-color: green;
+    color: 000;
+    background-color:#b6cdbd;
     border-style: none;
     border-radius: 4px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -50,24 +54,23 @@ input {
 }
 #addQuote,#exportQuote {
     padding: 12px;
-    color: white;
-    background-color: green;
+    color: 000;
+    background-color: #b6cdbd;
     border-style: none;
     border-radius: 4px;
     margin: 10px 0 0 0;
     align-items: center;
+    font-weight: bold;
     cursor: pointer;
 }
 label{
     font-weight: 600;
 }
 #importFile {
-    padding: 12px;
     color: white;
-    background-color: grey;
-    border-style: none;
     border-radius: 4px;
     margin: 10px 0 0 0;
     align-items: center;
     cursor: pointer;
+
 }
